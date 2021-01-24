@@ -68,45 +68,49 @@
 
         <div class="w-full h-auto mt-8">
             <h3 class="text-lg text-white capitalize">your options are:</h3>
-            <div class="flex w-full h-auto flex-wrap ">
+            <div id="options2_button_container" class="flex w-full h-auto flex-wrap ">
                 <div class="w-full my-4 h-16 text-white ">
-                    <button button
+                    <button id="button4"
                         class="hover:bg-blue-700 hover:text-white active:bg-blue-700 active:text-white rounded-xl border-blue-700 border-4 border-solid w-full h-full text-lg">Option
                         1</button>
                 </div>
                 <div class="w-full my-4 h-16 text-white ">
-                    <button button
+                    <button id="button5"
                         class="hover:bg-blue-700 hover:text-white active:bg-blue-700 active:text-white rounded-xl border-blue-700 border-4 border-solid w-full h-full text-lg">Option
                         2</button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="w-80 h-auto mx-auto hidden">
+    <div id="container3" class="w-80 h-auto mx-auto ">
         <!-- container 3, hide until container 2's button is selected-->
 
+        <h4 class="italic text-md mx-auto text-center text-gray-200 my-16 uppercase hidden" id="final_result_subheader">
+            Determining your final result...
+        </h4>
+        <div id="container3_text" class="hidden">
+            <p class="text-lg text-white my-6">Final Result</p>
+            <p class="uppercase text-sm text-white">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+                five
+                centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <!-- <p id="leadershipTypeIndicator" class="my-6 uppercase text-sm text-white">You are a [type] leader.</p>
+            <p id="mediateScoreIndicator" class="my-6 uppercase text-sm text-white">You mediate [well/poorly].</p>
+            <p id="instigateScoreIndicator" class="my-6 uppercase text-sm text-white">you instigate situations
+                [regularly/rarely].</p>
+            <p id="actionScoreIndicator" class="my-6 uppercase text-sm text-white">you take action [regularly/rarely].
+            </p> -->
 
-        <p class="text-lg text-white my-6">Final Result</p>
-        <p class="uppercase text-sm text-white">Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
-            five
-            centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
-            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-            recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <p id="leadershipScoreIndicator" class="my-6 uppercase text-sm text-white">Leadership Score: [-2——2]</p>
-        <p id="leadershipTypeIndicator" class="my-6 uppercase text-sm text-white">You are a [type] leader.</p>
-        <p id="mediateScoreIndicator" class="my-6 uppercase text-sm text-white">You mediate [well/poorly].</p>
-        <p id="instigateScoreIndicator" class="my-6 uppercase text-sm text-white">you instigate situations
-            [regularly/rarely].</p>
-        <p id="actionScoreIndicator" class="my-6 uppercase text-sm text-white">you take action [regularly/rarely].</p>
-
-        <div class="w-full h-auto mt-8">
-            <div class="flex w-full h-auto flex-wrap ">
-                <div class="w-full my-4 h-16 text-white ">
-                    <button
-                        class="hover:bg-white hover:text-black active:bg-white active:text-black rounded-xl border-white border-4 border-solid w-full h-full text-lg">TRY
-                        AGAIN</button>
+            <div class="w-full h-auto mt-8">
+                <div class="flex w-full h-auto flex-wrap ">
+                    <div class="w-full my-4 h-16 text-white ">
+                        <button onclick="reloadPage()"
+                            class="hover:bg-white hover:text-black active:bg-white active:text-black rounded-xl border-white border-4 border-solid w-full h-full text-lg">PLAY
+                            AGAIN</button>
+                    </div>
                 </div>
             </div>
         </div>

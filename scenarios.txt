@@ -1,0 +1,117 @@
+Scenarios and Options
+
+——————Scenario 1———————
+You run a multi-million dollar company. You have been extremely successful in the past due to rigorous interviews and demanding vetting procedures aimed at potential employees. Because of this, you have been able to employ highly skilled individuals who are responsible for the majority of your company's success. However, all is not well. Through your company's complaint system, you have discovered that your best-performing high-level employees have been damaging to the company culture and some of them have been abrasive to other employees. Due to this, some low-level employees have resigned. As the CEO of the company, what will you do?
+
+
+Level 1
+    Option 1: Talk to high-level employees
+        Result: You bring in the high level employees. You inform them of the complaints that have been made as they roll their eyes. They state they have done nothing wrong, and that the low level employees should learn from them as they have more experience and know how to run things in the company. Most of them claim there is nothing wrong with how the company culture is right now, and that the complaints are baseless and attention-seeking.
+
+    Option 2: Talk to low-level employees
+        Result: You bring in the low level employees. They inform you that the high level employees have created a patronizing company culture that borders on bullying. Some of them state that they have occasionally cried in the bathroom stalls due to the way they are treated, and others claim that some interactions with high level employees have been overly confrontational. They warn you that if nothing changes, further conflict is guaranteed.
+
+    Option 3: Do Nothing
+        Result: You do nothing, and let things play out on their own. Some employees leave the company and write scathing articles of how your company treats its lower level employees, citing \'apathy towards anyone making below $100k annually\'. Several fights break out in your headquarters and police lock down the area. Your company generates bad PR and your stock sinks 584%.
+
+Level 2
+    Option 1.1: Fire problematic high-level employees
+        Ending: You fire several accused high-level employees and replace them. Your monthly revenue drops by 60% for 2 months, then shoots back up after hiring new high-level employees. These employees are informed of what happened to those they are replacing, and treat everyone in the company with respect. You end the year with a 30% growth in revenue and the company becomes significantly more powerful after a few years.
+
+    Option 1.2: Ignore complaints
+
+        Ending: You ignore the complaints, and trust that your high-level employees are telling the truth. After a week, several low-level employees leave the company and write scathing articles of how your company treats its lower level employees, citing \'apathy towards anyone making below $100k annually\'. This generates huge amounts of bad press and your stock drops 963%. Widespread fear and uncertainty floods the company and employees begin resigning in droves. It is truly a dumpster fire. You are forced to step down and leave the company. It is swallowed by its biggest competitor and its potential is stomped out.
+
+    Option 2.1: Fire problematic high-level employees
+
+        Ending: You fire several accused high-level employees and replace them. Your monthly revenue drops by 60% for 2 months, then shoots back up after hiring new high-level employees. These employees are informed of what happened to those they are replacing, and treat everyone in the company with respect. You end the year with a 30% growth in revenue and the company becomes significantly more powerful after a few years.
+
+    Option 2.2: Emphasize mental health at your company
+
+        Ending: You begin a campaign to emphasize mental health at your company. This brings mixed responses; some praise the move as a progressive move away from the \’work work work\’ culture we have. Others see it as nothing more than a marketing campaign. Inside your company, the lower level companies compare it to \’putting a bandaid on a knife wound\’ and begin leaving your company. Your annual revenue drops by 10% and your brand is damaged as ex-employees reveal the toxic work culture of your company. 
+
+    Option 3.1: Step down 
+
+        Ending: You step down, and your company goes down in flames. It is acquired by its competitor and dissolved. 
+
+    Option 3.2: Fire the high-level employees
+
+        Ending: You fire the high-level employees in an effort to reverse your mistake and rebuild your company’s work culture and reputation. It is too late. You are left with a shortage of skilled employees, as you learn no one wants to work for a company with a toxic working environment. You are forced to disband several departments and those employees are acquired by your competitors, as they move in to take your place as market leader. Your company shrinks tremendously and never manages to grow to the level it once was. Eventually, it is acquired by a competitor for a pathetic price and dissolved. 
+
+
+—————Scenario 2————————
+You are in the middle of a group project.
+
+Level 1
+    Option 1:
+        Result:
+
+    Option 2:
+        Result:
+
+    Option 3:
+        Result:
+
+Level 2
+    Option 1.1
+
+        Ending
+
+    Option 1.2
+
+        Ending
+
+    Option 2.1
+
+        Ending
+
+    Option 2.2
+
+        Ending
+
+    Option 3.1
+
+        Ending
+
+    Option 3.2
+
+        Ending
+
+
+
+—————Scenario 3————————
+
+Level 1
+    Option 1:
+        Result:
+
+    Option 2:
+        Result:
+
+    Option 3:
+        Result:
+
+Level 2
+    Option 1.1
+
+        Ending
+
+    Option 1.2
+
+        Ending
+
+    Option 2.1
+
+        Ending
+
+    Option 2.2
+
+        Ending
+
+    Option 3.1
+
+        Ending
+
+    Option 3.2
+
+        Ending
