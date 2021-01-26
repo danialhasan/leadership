@@ -1,6 +1,6 @@
 const scenarios = [
     'You run a multi-million dollar company. You have been extremely successful in the past due to rigorous interviews and demanding vetting procedures aimed at potential employees. Because of this, you have been able to employ highly skilled individuals who are responsible for the majority of your company\'s success. However, all is not well. Through your company\'s complaint system, you have discovered that your best-performing high-level employees have been damaging to the company culture. Some of them have been abrasive to other employees. Due to this, some low-level employees have resigned. As the CEO of the company, what will you do?',
-    'Scenario 2 here',
+    'You are in the middle of a group project. The project deadline is approaching and things are moving smoothly until an argument breaks between two group members. The argument is over which direction the project should be heading in for the best marks. Currently, both parties are using facts, logic, and respect to explain their arguments. As a member of the group, what will you do?',
     'Scenario 3 here'
 ];
 //randomly generated scenario
@@ -25,8 +25,8 @@ const scenarios = [
 const scenario1_1_titles = ['Talk to high-level employees', 'Talk to low-level employees', 'Do Nothing']; //first decision branch titles (3)
 const scenario1_2_titles = ['Fire problematic high-level employees', 'Ignore complaints', 'Fire problematic high-level employees', 'Emphasize mental health at your company', 'Step down', 'Fire the high-level employees']; //second decision branch titles (6)
 
-const scenario2_1_titles = ['scenario 2 L1 option 1', 'scenario 2 L1 option 2', 'scenario 2 L1 option 3']; //first decision branch titles (3)
-const scenario2_2_titles = ['scenario 2 L2 option 1', 'scenario 2 L2 option 2', 'scenario 2 L2 option 3', 'scenario 2 L2 option 4', 'scenario 2 L2 option 5', 'scenario 2 L2 option 6']; //second decision branch titles (6)
+const scenario2_1_titles = ['Step between them', 'Encourage them', 'Wait to see where this goes']; //first decision branch titles (3)
+const scenario2_2_titles = ['Propose a vote', 'Randomly choose an idea', 'Continue the project on your own', 'Try to fix the group', 'Pick an idea randomly', 'Look for new ideas']; //second decision branch titles (6)
 
 const scenario3_1_titles = ['scenario 3 L1 option 1', 'scenario 3 L1 option 2', 'scenario 3 L1 option 3']; //first decision branch titles (3)
 const scenario3_2_titles = ['scenario 3 L2 option 1', 'scenario 3 L2 option 2', 'scenario 3 L2 option 3', 'scenario 3 L2 option 4', 'scenario 3 L2 option 5', 'scenario 3 L2 option 6']; //second decision branch titles (3)
@@ -44,8 +44,17 @@ const scenario1_2 = ['You fire several accused high-level employees and replace 
     'You fire the high-level employees in an effort to reverse your mistake and rebuild your company’s work culture and reputation. It is too late. You are left with a shortage of skilled employees, as you learn no one wants to work for a company with a toxic working environment. You are forced to disband several departments and those employees are acquired by your competitors, as they move in to take your place as market leader. Your company shrinks tremendously and never manages to grow to the level it once was. Eventually, it is acquired by a competitor for a pathetic price and dissolved.'
 ]; //endings (6 possible endings for scenario 1)
 
-const scenario2_1 = ['you\'re in scenario two, decision level 1. You picked option 1.', 'you\'re in scenario two, decision level 1. You picked option 2.', 'you\'re in scenario two, decision level 1. You picked option 3.']; // (3) first decision branch Ending 
-const scenario2_2 = ['Ending 2_2_1', 'Ending 2_2_2', 'Ending 2_2_3', 'Ending 2_2_4', 'Ending 2_2_5', 'Ending 2_2_6']; // (6) second decision branch
+const scenario2_1 = ['You step between them and they stop arguing to look at you. You ask what they’re talking about and why it matters, and they simultaneously begin explaining their side to you. You call the other group members and let them weigh in on the situation. What will you do?',
+    'You tell one member that the opposing member said their idea was stupid. This angers them and they begin personally attacking the other group member with petty remarks and insults to their intelligence, persona, and mother. This angers the other member who responds with their own personal attacks and petty remarks, and soon the group is split between these two members. There is heavy group infighting. The deadline is approaching, and there has been two unproductive weeks of little progress since the fight. What will you do?',
+    'While the two group members debate each other, the rest of the group watches in confusion as to what they must do now. The group is without direction and purpose and productivity drops. You lose two weeks of time.'
+]; // (3) first decision branch Ending 
+const scenario2_2 = ['You propose a democratic vote on which idea is better. The group agrees with you, and a vote is taken. One idea wins over the other, and your group gets back on track to completing the project. Two weeks later, the project is finished and is handed in. During the post-project peer evaluation, your peers rate you highly due to your initiative and ability to break the team out of the indecisive unproductivity. You end up with one of the highest marks in the class.',
+    'You randomly choose an idea and stick with it. The rest of your team follows through with your recommendation and work resumes. Two weeks later, the project is finished and is handed in. During the post-project peer evaluation, your peers rate you highly due to your initiative and ability to break the team out of the indecisive unproductivity. You end up with one of the highest marks in the class.',
+    'You decide to splinter off the group and continue the project on your own. You erase any team member that does not follow you. Due to a smaller number of people working on the project (you + whoever decided to follow), you appeal for an extension. You do not get it. You are forced to rush the rest of the project until you finally hand it in. During a peer evaluation, you harshly judge the lack of work contributed by your peers. They do the same to you. You end up with a slightly below-average grade.',
+    'You decide to fix the interpersonal relationships of the group. Although this is successful, you end up contributing most of your time towards using your social skills to repair relationships rather than working on the project. The project is incomplete by the deadline, and you receive a bad grade.',
+    'Due to the stress and pressure of the approaching deadline and concurrent lack of a working project, you randomly pick an idea and roll with it. Due to the two weeks lost because of your indecisiveness, the project is rushed. You end up submitting the project in its rushed state, and you receive a slightly below-average grade.',
+    'You decide to look for new ideas. One week later, you find one. However, because of the 3 weeks lost due to group infighting and your indecisiveness, you are only left with one week to finish the project. Despite pulling several all-nighters and sacrificing your short-term mental health, the project does not get completed and you submit it late. You receive a bad grade.'
+]; // (6) second decision branch
 
 const scenario3_1 = ['you\'re in scenario three, decision level 1. You picked option 1.', 'you\'re in scenario three, decision level 1. You picked option 2.', 'you\'re in scenario three, decision level 1. You picked option 3.']; // (3) first decision branch
 const scenario3_2 = ['Ending 3_2_1', 'Ending 3_2_2', 'Ending 3_2_3', 'Ending 3_2_4', 'Ending 3_2_5', 'Ending 3_2_6']; // (6) second decision branch
@@ -72,7 +81,8 @@ function reloadPage() {
 }
 
 function generateScenario() {
-    rand = 1
+    // rand = 2
+    rand = Math.floor((Math.random() * 2) + 1);
     // rand = Math.floor((Math.random() * 3) + 1);
     /**
      * UNCOMMENT THE ABOVE LINE AFTER BUILDING FUNCTIONALITY.
